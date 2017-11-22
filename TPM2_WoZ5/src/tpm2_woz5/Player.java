@@ -14,12 +14,12 @@ import java.util.ArrayList;
 public class Player {
     public String pseudoPlayer;
     public ArrayList<Weapon> weaponPlayer;
-    private int stenghtPlayer;
+    private int Power;
 
     public Player(String pseudo, ArrayList<Weapon> arme, int force) {
         this.pseudoPlayer = pseudo;
         this.weaponPlayer = arme;
-        this.stenghtPlayer = force;
+        this.Power = force;
     }
 
     public String getPseudo() {
@@ -38,12 +38,12 @@ public class Player {
         this.weaponPlayer = weaponPlayer;
     }
 
-    public int getStenghtPlayer() {
-        return stenghtPlayer;
+    public int getPower() {
+        return Power;
     }
 
-    public void setStenghtPlayer(int stenghtPlayer) {
-        this.stenghtPlayer = stenghtPlayer;
+    public void setPower(int Power) {
+        this.Power = Power;
     }
     
 
