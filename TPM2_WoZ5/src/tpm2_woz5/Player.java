@@ -16,10 +16,10 @@ public class Player {
     public ArrayList<Weapon> weaponPlayer;
     private int stenghtPlayer;
 
-    public Player(String pseudo, ArrayList<Weapon> arme, int force) {
+    public Player(String pseudo, ArrayList<Weapon> arme, int puissance) {
         this.pseudoPlayer = pseudo;
         this.weaponPlayer = arme;
-        this.stenghtPlayer = force;
+        this.stenghtPlayer = puissance;
     }
 
     public String getPseudo() {
